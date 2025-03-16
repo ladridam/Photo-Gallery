@@ -1,31 +1,31 @@
 <DOCTYPE html>
-	<html lang="en">
+    <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-size=1.0">
-		<meta name="description" content="photo-gallery">
-		<meta name="author" content="Rythm">
-		<title>Gallery</title>
-		<link rel="stylesheet" href="gallerystyle.css">
-	</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-size=1.0">
+        <meta name="description" content="photo-gallery">
+        <meta name="author" content="Rythm">
+        <title>Gallery</title>
+        <link rel="stylesheet" href="gallerystyle.css">
+    </head>
 
-	<body>
-		<h1>Photo Gallery</h1>
+    <body>
+        <h1>Photo Gallery</h1>
+        <input type="text" id="searchInput" placeholder="Search images..." />
+        <div class="gallery">
+            <img src=".\assests\5.1.jpg" alt="landscape">
+            <img src=".\assests\1.jpg" alt="portrait">
+            <img src=".\assests\2.jpg" alt="wide">
+            <img src=".\assests\4.1.jpg" alt="square">
+        </div>
+        <!--Modal-->
+        <div class="modal" id="imageModal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
 
-		<div class="gallery">
-			<img src=".\assests\5.1.jpg" alt="landscape">
-			<img src=".\assests\1.jpg" alt="portrait">
-			<img src=".\assests\2.jpg" alt="wide">
-			<img src=".\assests\4.1.jpg" alt="square">
-		</div>
-		<!--Modal-->
-		<div class="modal" id="imageModal">
-			<span class="close">&times;</span>
-			<img class="modal-content" id="modalImage">
-		</div>
+        <script src="script.js"></script>
+    </body>
 
-		<script src="script.js"></script>
-	</body>
-
-	</html>
+    </html>
